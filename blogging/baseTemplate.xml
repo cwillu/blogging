@@ -1,0 +1,33 @@
+<CapRoot>  
+  <Wiki name="Objects">
+    <Constructor name="Wiki">Wiki</Constructor>
+    <Constructor name="User">User</Constructor>       
+    <Constructor name="Editor">Editor</Constructor>
+  </Wiki>
+  
+  <Wiki name="Applications">
+    <Wiki name="Blog">
+      <Wiki name="Categories">
+        <Wiki name="BestOf" />
+      </Wiki>
+    </Wiki>
+  </Wiki>
+  
+  <Wiki name="Users">
+  </Wiki>
+  
+  <Wiki name="Config">
+    <Wiki name="Launch">
+      <Link name="web" path="/Applications/Blog" />
+    </Wiki>
+  </Wiki>
+
+  <Wiki name="prototypes" >  
+    <Constructor name="Wiki">Wiki</Constructor>
+    <Constructor name="User">User</Constructor>       
+    <Constructor name="Editor">Editor</Constructor>
+  </Wiki>
+  
+  <Link name="prototype" path="/prototypes" />        
+</CapRoot>
+
